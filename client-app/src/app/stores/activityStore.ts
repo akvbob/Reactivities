@@ -122,12 +122,3 @@ class ActivityStore {
 
 //this lets to access our store from all React components
 export default createContext(new ActivityStore())
-
-// const handleCreateActivity = (activity: IActivity) => {
-//   setSubmitting(true);
-//   agent.Activities.create(activity).then(() => {
-//     setActivities([...activities, activity])
-//     setSelectedActivity(activity);
-//     setEditMode(false);
-//   }).then(() => setSubmitting(false))
-// }
